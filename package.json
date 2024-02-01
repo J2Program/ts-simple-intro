@@ -1,0 +1,26 @@
+{
+  "name": "ts-simple-intro",
+  "version": "1.0.0",
+  "description": "ts-simple-intro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon", 
+    "start": "npm run build && node dist/server.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.15",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
